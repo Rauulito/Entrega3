@@ -3,7 +3,7 @@ import random
 #Numero aleatorio del 1 al 300
 numeroAleatorio= random.randint(1,300)
 
-contador_intentos= 0
+contadorIntentos= 0
 
 numeroUsuario= 0
 numeroUsuario= int(numeroUsuario)
