@@ -5,6 +5,9 @@ numeroAleatorio= random.randint(1,300)
 
 contador_intentos= 0
 
+numeroUsuario= 0
+numeroUsuario= int(numeroUsuario)
+
 while (numeroUsuario != numeroAleatorio and contadorIntentos<9):
     numeroUsuario= int(input("Ingresa un numero entre 1 y 300:"))
     if numeroAleatorio < numeroUsuario:
