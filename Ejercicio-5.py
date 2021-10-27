@@ -1,7 +1,7 @@
 print("Lo que surgen en galones")
 cantidadGasolina= float(input())
 
-precioGasolinaPorLitro= 4,5
+precioGasolinaPorLitro= 4.5
 
 pagoCliente= cantidadGasolina* precioGasolinaPorLitro
 
