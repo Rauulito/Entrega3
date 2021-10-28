@@ -1,17 +1,21 @@
 import random
 
-#Numero aleatorio del 1 al 15
-numeroAleatorio= random.randint(1,15)
 
-while (numeroUsuario != numeroAleatorio):
-    numeroUsuario= int(input("Ingresa un numero entre 1 y 15:"))
-    if numeroAleatorio < numeroUsuario:
-        print("Escribe un numero más pequeño")
+#Generamos número aleatorio entre el 1 y el 15
+numeroAleatorio = random.randint(1, 15)
+
+numeroUsuario = 0
+numeroUsuario = int(numeroUsuario)
+
+while numeroUsuario != numeroAleatorio and contadorIntentos < 9:
+    num_usuario = int(input("Ingresa un número entre el 1 y el 300: "))
     if numeroAleatorio > numeroUsuario:
-        print("Escribe un numero más grande")
-    else:
-        break
-  
+        print("Escribe un número mayor")
+    elif numeroAleatorio < numeroUsuario:
+        print("Escribe un número menor")
 
-if numeroUsuario == numeroAleatorio
-   print("El número acertado es:" + str(numeroAleatorio) + "en" + str(contadorIntentos))
+
+if numeroUsuario == numeroAleatorio:
+    print("El número acertado es " + str(numeroAleatorio))
+
+

@@ -9,7 +9,7 @@ numeroAleatorio = random.randint(1, 300)
 numeroUsuario = 0
 numeroUsuario = int(numeroUsuario)
 
-while num_usuario != numeroAleatorio and contadorIntentos < 9:
+while numeroUsuario != numeroAleatorio and contadorIntentos < 9:
     num_usuario = int(input("Ingresa un número entre el 1 y el 300: "))
     if numeroAleatorio > numeroUsuario:
         print("Escribe un número mayor")
