@@ -13,7 +13,8 @@ while numeroUsuario != numeroAleatorio :
         print("Escribe un número mayor")
     elif numeroAleatorio < numeroUsuario:
         print("Escribe un número menor")
-
+    else:
+        break
 
 if numeroUsuario == numeroAleatorio:
     print("El número acertado es " + str(numeroAleatorio))
