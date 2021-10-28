@@ -4,13 +4,13 @@ import random
 contadorIntentos = 0
 
 #Generamos número aleatorio entre el 1 y el 300
-numeroAleatorio = random.randint(1, 300)
-
+numeroAleatorio = random.randint(1,300)
+print(numeroAleatorio)
 numeroUsuario = 0
 numeroUsuario = int(numeroUsuario)
 
 while numeroUsuario != numeroAleatorio and contadorIntentos < 9:
-    num_usuario = int(input("Ingresa un número entre el 1 y el 300: "))
+    numeroUsuario = int(input("Ingresa un número entre el 1 y el 300: "))
     if numeroAleatorio > numeroUsuario:
         print("Escribe un número mayor")
     elif numeroAleatorio < numeroUsuario:
