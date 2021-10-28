@@ -5,7 +5,7 @@ contadorIntentos = 0
 
 #Generamos número aleatorio entre el 1 y el 300
 numeroAleatorio = random.randint(1,300)
-print(numeroAleatorio)
+
 numeroUsuario = 0
 numeroUsuario = int(numeroUsuario)
 
