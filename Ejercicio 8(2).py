@@ -18,7 +18,7 @@ while (numeroUsuario != numeroAleatorio and contadorIntentos<9):
         break
     contadorIntentos= contadorIntentos +1
 
-if numeroUsuario == numeroAleatorio
+if numeroUsuario ==  numeroAleatorio
     print("El número acertado es:" + str(numeroAleatorio) + "en" + str(contadorIntentos) + "intentos")
 else:
     print("No has acertado el número y se te han acabado los intentos")
