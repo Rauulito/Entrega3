@@ -4,7 +4,7 @@ import random
 numeroAleatorio= random.randint(1,15)
 
 while (numeroUsuario != numeroAleatorio):
-    numeroUsuario= int(input("Ingresa un numero entre 1 y 300:"))
+    numeroUsuario= int(input("Ingresa un numero entre 1 y 15:"))
     if numeroAleatorio < numeroUsuario:
         print("Escribe un numero más pequeño")
     if numeroAleatorio > numeroUsuario:
