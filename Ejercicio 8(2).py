@@ -23,3 +23,4 @@ if numeroUsuario == numeroAleatorio:
     print("El número acertado es " + str(numeroAleatorio) + " en " + str(contadorIntentos) + " intentos")
 else:
     print("No has acertado el número y se te han acabado los intentos")
+
