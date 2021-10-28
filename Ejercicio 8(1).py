@@ -8,7 +8,7 @@ numeroUsuario = 0
 numeroUsuario = int(numeroUsuario)
 
 while numeroUsuario != numeroAleatorio :
-    num_usuario = int(input("Ingresa un número entre el 1 y el 15: "))
+    numeroUsuario = int(input("Ingresa un número entre el 1 y el 15: "))
     if numeroAleatorio > numeroUsuario:
         print("Escribe un número mayor")
     elif numeroAleatorio < numeroUsuario:
